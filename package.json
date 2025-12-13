@@ -1,0 +1,24 @@
+{
+  "name": "vuetest",
+  "version": "1.0.0",
+  "description": "fullstack contact app",
+  "homepage": "https://github.com/Abualtaher/vuetest#readme",
+  "bugs": {
+    "url": "https://github.com/Abualtaher/vuetest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abualtaher/vuetest.git"
+  },
+  "license": "ISC",
+  "author": "Wisam",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}

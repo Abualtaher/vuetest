@@ -1,9 +1,13 @@
 require("dotenv").config(); // must be first
 
 const express = require("express");
+const errorHandler = require("./middelware/errorHandler");
 const app = express();
 
+app.use(express.json());
+
 app.use("/api/contacts", require("./routes/contactRoutes"));
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 3200;
 

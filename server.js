@@ -2,6 +2,9 @@ require("dotenv").config(); // must be first
 
 const express = require("express");
 const errorHandler = require("./middelware/errorHandler");
+const connectDB = require("./connection/dbConnection");
+
+connectDB();
 const app = express();
 
 app.use(express.json());

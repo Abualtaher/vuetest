@@ -1,5 +1,5 @@
 <script setup></script>
-
 <template>
-  <h1>Home</h1>
+  <div>AddContact</div>
 </template>
+<style scoped></style>
